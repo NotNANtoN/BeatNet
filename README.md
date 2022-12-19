@@ -71,7 +71,7 @@ pip install BeatNet
 
 Approach #2: Installing directly from the Git repository:
 ```
-pip install git+https://github.com/mjhydri/BeatNet
+pip install git+https://github.com/NotNANtoN/BeatNet
 ```
 
 * Note that by using either of the approaches all dependencies and required packages get installed automatically except pyaudio and cython. You mau need to install cython in advance. Also, pyaudio is a python binding for Portaudio to handle audio streaming. If Pyaudio is not installed in your machine, depending on your machine type either install it thorugh pip (Mac OS and Linux) or download an appropriate version for your machine (Windows) from *[here](https://www.lfd.uci.edu/~gohlke/pythonlibs/)*. Then, navigate to the file location through commandline and use the following command to install the wheel file locally:
